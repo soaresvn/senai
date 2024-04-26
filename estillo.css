@@ -1,8 +1,20 @@
  .bottom{
-            margin:0 auto;
-            width: 200px;
-            height: 100px;
-        }
-        .bottom h2{
-            color:#7c0404;
-        }
+            margin:0 auto;  
+            max-width: 768px;
+            background-color: aqua;
+            display: block;
+            text-align: center;
+            border-radius: 50px;
+ }
+ .bottom a{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+ }
+ .bottom a:hover{
+    color:#7c0404 ;
+ }
+ h1{
+    text-align: center;
+
+ }
