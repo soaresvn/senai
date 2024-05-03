@@ -1,0 +1,29 @@
+.pai{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.filho{
+   max-width: 300px;
+   background-color: rgb(26, 163, 163);
+   border-radius: 15px;
+  
+}
+.filho p{
+    color: #333;
+}
+@media screen and (max-width: 1024px){
+    .pai{
+        flex-direction: column;
+    }
+    .filho{
+        max-width: 100%;
+        text-align: center;
+    }
+}
+img{
+    max-width: 100%;
+}
+
+    
