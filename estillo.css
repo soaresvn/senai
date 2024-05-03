@@ -1,7 +1,7 @@
  .bottom{
             margin:0 auto;  
             max-width: 768px;
-            background-color: aqua;
+            background-color: (99, 99, 99);
             display: block;
             text-align: center;
             border-radius: 50px;
@@ -21,7 +21,7 @@
  .bottom2{
    margin:0 auto;  
    max-width: 768px;
-   background-color: aqua;
+   background-color: rgb(99, 99, 99);
    display: block;
    text-align: center;
    border-radius: 50px;
@@ -38,4 +38,23 @@ color:#7c0404 ;
 h1{
 text-align: center;
 
+}
+.bottom3{
+   margin:0 auto;  
+   max-width: 768px;
+   background-color: (99, 99, 99);
+   display: block;
+   text-align: center;
+   border-radius: 50px;
+}
+.bottom3 a{
+font-size: 50px;
+color: rgb(0, 0, 0);
+text-decoration: none;
+}
+.bottom3 a:hover{
+color:#7c0404 ;
+}
+h1{
+text-align: center;
 }
