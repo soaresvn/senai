@@ -1,0 +1,45 @@
+p{
+    color: #fff;
+}
+h2{
+    color: #fff;
+}
+#pai{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+.filho{
+    max-width: 300px;
+    padding:60px 20px;
+}
+.filho img{
+    max-width: 100%;
+}
+.filho a{
+    text-decoration: none;
+}
+.filho a :hover{
+    color: rgb(255, 0, 0);
+}
+.filho a p{
+    background-color: rgb(83, 10, 126);
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    padding: 15px 0;
+    width: auto;
+}
+@media screen and (max-width: 1024px) {
+    #pai{
+        flex-direction: column;
+    }
+    .filho{
+        justify-content: center;
+        max-width: 100%;
+    }
+    
+}
