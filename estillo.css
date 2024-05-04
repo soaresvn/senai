@@ -1,7 +1,7 @@
 .bottom{
             margin:0 auto;  
             max-width: 768px;
-            background-color: rgb(99, 99, 99);
+            
             display: block;
             text-align: center;
             border-radius: 50px;
@@ -21,11 +21,10 @@
  .bottom2{
    margin:0 auto;  
    max-width: 768px;
-   background-color: rgb(99, 99, 99);
+   
    display: block;
    text-align: center;
    border-radius: 50px;
-  
 }
 .bottom2 a{
 font-size: 50px;
@@ -42,7 +41,7 @@ text-align: center;
 .bottom3{
    margin:0 auto;  
    max-width: 768px;
-   background-color: rgb(99, 99, 99);
+   
    display: block;
    text-align: center;
    border-radius: 50px;

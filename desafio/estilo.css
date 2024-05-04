@@ -19,6 +19,9 @@ h2{
 .filho img{
     max-width: 100%;
 }
+.filho p{
+    padding-bottom: 70px;
+}
 .filho a{
     text-decoration: none;
 }
