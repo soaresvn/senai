@@ -17,10 +17,10 @@ h2{
     padding:60px 20px;
 }
 .filho img{
-    max-width: 100%;
+    width: 100%;
 }
 .filho p{
-    padding-bottom: 70px;
+    padding-bottom: 70px 0;
 }
 .bottom{
     color: hsl(0, 0%, 0%);
@@ -33,9 +33,14 @@ h2{
     
 }
 .filho:hover{
-    .bottom{background-color: #333; color: #fff;}
-    img{
-        display: none;
+    .bottom{
+        background-color: #333; color: #fff;
+        transition: 1s;
+    }
+    img{ 
+        width: 110%;
+        transition: 1s;
+        
     }
     align-content: flex-end;
     
