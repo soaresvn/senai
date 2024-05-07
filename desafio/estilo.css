@@ -22,20 +22,31 @@ h2{
 .filho p{
     padding-bottom: 70px;
 }
-.filho a{
+.bottom{
+    color: hsl(0, 0%, 0%);
     text-decoration: none;
-}
-.filho a :hover{
-    color: rgb(255, 0, 0);
-}
-.filho a p{
-    background-color: rgb(83, 10, 126);
+    background-color: rgb(253, 253, 253);
     justify-content: center;
     display: flex;
     border-radius: 10px;
     padding: 15px 0;
-    width: auto;
+    
 }
+.filho:hover{
+    .bottom{background-color: #333; color: #fff;}
+    img{
+        display: none;
+    }
+    align-content: flex-end;
+    
+    
+} 
+.bottom:hover{
+    background-color: rgb(83, 83, 83);
+    color: #fff;
+   
+}
+
 @media screen and (max-width: 1024px) {
     #pai{
         flex-direction: column;

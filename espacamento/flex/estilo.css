@@ -3,11 +3,12 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    
 }
 .filho{
    max-width: 300px;
-   background-color: rgb(26, 163, 163);
    border-radius: 15px;
+   
   
 }
 .filho p{

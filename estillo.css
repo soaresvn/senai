@@ -1,59 +1,19 @@
 .bottom{
-            margin:0 auto;  
-            max-width: 768px;
-            
-            display: block;
-            text-align: center;
-            border-radius: 50px;
+        margin: 0 auto;  
+        max-width: 768px;
+        padding: 30px 0;
+        text-align: center;  
  }
- .bottom a{
+.bottom a{
     font-size: 50px;
     color: rgb(0, 0, 0);
     text-decoration: none;
+    background-color: #333;
+    border-radius: 20px;
  }
- .bottom a:hover{
-    color:#7c0404 ;
+.bottom a:hover{
+    color:#7c0404;
  }
- h1{
+h1{
     text-align: center;
-
- }
- .bottom2{
-   margin:0 auto;  
-   max-width: 768px;
-   
-   display: block;
-   text-align: center;
-   border-radius: 50px;
-}
-.bottom2 a{
-font-size: 50px;
-color: rgb(0, 0, 0);
-text-decoration: none;
-}
-.bottom2 a:hover{
-color:#7c0404 ;
-}
-h1{
-text-align: center;
-
-}
-.bottom3{
-   margin:0 auto;  
-   max-width: 768px;
-   
-   display: block;
-   text-align: center;
-   border-radius: 50px;
-}
-.bottom3 a{
-font-size: 50px;
-color: rgb(0, 0, 0);
-text-decoration: none;
-}
-.bottom3 a:hover{
-color:#7c0404 ;
-}
-h1{
-text-align: center;
 }
